@@ -1,0 +1,92 @@
+
+.intro{
+    background-image: url("table mountain.jpg");
+}
+table,  th, td{
+border: 1px solid;
+}
+table{
+border-collapse: collapse;
+width: 50%
+}
+body{
+background-color: cornflowerblue;
+}
+
+.place1 {
+    border: 1px solid;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+
+}
+.place2 {
+    border: 1px solid;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    
+}
+.place3 {
+    border: 1px solid;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    
+}
+
+.subject1 {
+        border: 1px solid;
+        padding: 1em;
+        margin: 1em;
+        border-radius: 1em;
+        
+    }
+
+.subject2 {
+    border: 1px solid;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    
+}
+
+.subject3 {
+    border: 1px solid;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    
+}
+
+
+.photo
+@media (min-width: 780px)  {
+.intro {
+    display: flex;
+}
+.city {
+    display:flex;
+}
+}
+@media (min-width:768px) {
+
+.subjects{
+    display: flex;
+    }
+.subject1 {
+    flex:1;
+}
+.subject2 {
+    flex:1;
+}
+.subject3 {
+    flex:1;
+}
+.places {
+    display: flex;
+    
+}
+
+
+}
